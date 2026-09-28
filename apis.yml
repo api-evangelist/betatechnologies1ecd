@@ -1,23 +1,53 @@
 aid: betatechnologies1ecd
+
 name: Betatechnologies1ecd
-description: 'Betatechnologies1ecd is a company surfaced via the API Evangelist harvest backlog (source:
-  secondary-market) and added to the network as a stub for full-pipeline profiling.'
+
+description: 'Betatechnologies1ecd is a stub entry created by the API Evangelist harvest process. No public website, documentation, or API endpoints have been identified for this entity. It appears in secondary-market listings but lacks verifiable information about its services, products, or technical offerings. This placeholder record exists to enable future enrichment should reliable sources become available.'
+
 url: https://raw.githubusercontent.com/api-evangelist/betatechnologies1ecd/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-09-28 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-09-28'
+
 modified: '2026-09-28'
+
 tags:
 - Company
-apis: []
+- Technology
+- Startup
+- Finance
+- Unknown
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
+common: []
+
 common:
+- type: Hosts
+  url: hosts/betatechnologies1ecd-hosts.yml
+- type: Vendors
+  url: vendors/betatechnologies1ecd-vendors.yml
+- type: DomainSecurity
+  url: security/betatechnologies1ecd-domain-security.yml
 - type: Website
   url: https://equityzen.com/company/betatechnologies1ecd
+
+apis: []
+x-enrichment:
+  date: '2026-09-28'
+  status: minimal
+  artifacts_added: 2
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local
